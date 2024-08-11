@@ -122,4 +122,13 @@
 #reset:hover{
 background-color: rgb(224, 103, 103);
 }
-  
+
+#download:hover{
+    background-color: rgb(73, 204, 255);
+}
+
+.download-qr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
