@@ -8,12 +8,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e8e8e8;
+    background-color: lightgrey;
 }
 
 /* **************************************form**************************************** */
- 
-/* From Uiverse.io by andrew-demchenk0 */ 
+
+
 .form {
     --input-focus: #2d8cf0;
     --font-color: #323232;
@@ -21,10 +21,10 @@
     --bg-color: #fff;
     --main-color: #323232;
     padding: 20px;
-    background: lightgrey;
+    background: white;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     gap: 20px;
     border-radius: 5px;
@@ -118,5 +118,8 @@
 
 .button-confirm:hover{
     background-color: rgb(131, 212, 131);
+}
+#reset:hover{
+background-color: rgb(224, 103, 103);
 }
   
