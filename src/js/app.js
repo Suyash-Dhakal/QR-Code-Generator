@@ -11,7 +11,7 @@ btn.addEventListener("click",(evt)=>{
 function generateQR(){
     let input=document.querySelector("form .input");
     let img=document.querySelector(".qr-img img");
-    img.src=`${BASE_URL}data=${input.value}&size=100x100`;
+    img.src=`${BASE_URL}data=${input.value}&size=300x300`;
 }
 
 function reset(){
