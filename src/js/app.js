@@ -4,8 +4,8 @@ const BASE_URL="https://api.qrserver.com/v1/create-qr-code/?";
 let btn=document.querySelector(".button-confirm");
 
 btn.addEventListener("click",(evt)=>{
-    evt.preventDefault();
     generateQR();
+    evt.preventDefault();
 });
 
 function generateQR(){
